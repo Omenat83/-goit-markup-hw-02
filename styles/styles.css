@@ -43,7 +43,7 @@ text-decoration: none;
 .top-contacts:hover {
     color: var(--main-color-decor);
 }
-/* -------------------main-------------------- */
+/* --------------------------main-------------------- */
 /* order  */
 .order {
     background-color: #2F303A;
@@ -63,7 +63,21 @@ color: var(--title-color);
 .examples p {
     color: var(--text-color);
 }
-/* --------підвал---------- */
+/* ---------------------------кнопки----------- */
+.button {
+    color: #212121;
+}
+/* .button.active {
+    color: #ffffff;
+    background-color: var(--main-color-decor);
+} */
+.button.active,
+.button:hover,
+.button:focus {
+    color: #ffffff;
+    background-color: var(--main-color-decor);
+}
+/* ---------------------------підвал---------- */
 .footer {
     background-color:#2F303A ;
 }
