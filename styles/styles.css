@@ -1,91 +1,158 @@
-:root{
-    --main-color-decor: #2196F3; 
-    --title-color: #212121;
-    --text-color: #757575;
+:root {
+  --main-color-decor: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
 }
 /* ------загальні правила----------- */
-body{
-    background-color: #ffffff;
-    color: var(--text-color);
-}
-ul {
-    list-style: none;
+body {
+  background-color: #ffffff;
+  color: var(--text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
-list-style: none;
+  list-style: none;
 }
 .link {
-text-decoration: none;
+  text-decoration: none;
 }
 /* -----------------footer--------------- */
 /*логотип*/
 .logo-web {
-    color: var(--main-color-decor);
-
+  color: var(--main-color-decor);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
-.logo-studio{
-    color: black;
+.logo-studio {
+  color: black;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 /*навігація по сайту*/
-.nav {
-    color: var(--title-color);
+.site-nav {
+  color: var(--title-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .site-nav:hover,
 .site-nav:focus {
-    color: var(--main-color-decor);
-
+  color: var(--main-color-decor);
 }
-/*контакти в шапці*/ 
+/*контакти в шапці*/
 .top-contacts {
-    color: var(--text-color);
+  color: var(--text-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .top-contacts:focus,
 .top-contacts:hover {
-    color: var(--main-color-decor);
+  color: var(--main-color-decor);
+  letter-spacing: 0.06em;
 }
 /* --------------------------main-------------------- */
 /* order  */
 .order {
-    background-color: #2F303A;
-    color: #ffffff;
+  background-color: #2f303a;
+  color: #ffffff;
+  text-transform: uppercase;
 }
+/* -------------------text------------------ */
 /*заголовки секцій*/
 .section-title {
-color: var(--title-color);
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
-/*переваги:  міні-заголовки*/
-.feature h3,
+/*міні-заголовки*/
+.feature h3 {
+  color: var(--title-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.feature p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-name {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
 .examples h2 {
-    color: var(--title-color);
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 /*  */
 /* exanples - звичайний текст p */
 .examples p {
-    color: var(--text-color);
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
 /* ---------------------------кнопки----------- */
 .button {
-    color: #212121;
+  color: #212121;
+  font-size: 16px;
+  cursor: pointer;
 }
-/* .button.active {
-    color: #ffffff;
-    background-color: var(--main-color-decor);
-} */
 .button.active,
 .button:hover,
 .button:focus {
-    color: #ffffff;
-    background-color: var(--main-color-decor);
+  color: #ffffff;
+  background-color: var(--main-color-decor);
+}
+.order-button-text {
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.filter-button-text {
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 /* ---------------------------підвал---------- */
 .footer {
-    background-color:#2F303A ;
+  background-color: #2f303a;
 }
 footer .logo-studio {
-    color: #ffffff;
+  color: #ffffff;
 }
 .contacts {
-    font-style: normal;
-    text-decoration: none;
-    /* color: #ffffff;  */
+  font-style: normal;
+  text-decoration: none;
+  /* color: #ffffff;  */
 }
+.footer-contacts {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contacts:focus,
+.footer-contacts:hover {
+    color: var(--main-color-decor);
+}
+
