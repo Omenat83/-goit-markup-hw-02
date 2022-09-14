@@ -1,0 +1,77 @@
+:root{
+    --main-color-decor: #2196F3; 
+    --title-color: #212121;
+    --text-color: #757575;
+}
+/* ------загальні правила----------- */
+body{
+    background-color: #ffffff;
+    color: var(--text-color);
+}
+ul {
+    list-style: none;
+}
+.list {
+list-style: none;
+}
+.link {
+text-decoration: none;
+}
+/* -----------------footer--------------- */
+/*логотип*/
+.logo-web {
+    color: var(--main-color-decor);
+
+}
+.logo-studio{
+    color: black;
+}
+/*навігація по сайту*/
+.nav {
+    color: var(--title-color);
+}
+.site-nav:hover,
+.site-nav:focus {
+    color: var(--main-color-decor);
+
+}
+/*контакти в шапці*/ 
+.top-contacts {
+    color: var(--text-color);
+}
+.top-contacts:focus,
+.top-contacts:hover {
+    color: var(--main-color-decor);
+}
+/* -------------------main-------------------- */
+/* order  */
+.order {
+    background-color: #2F303A;
+    color: #ffffff;
+}
+/*заголовки секцій*/
+.section-title {
+color: var(--title-color);
+}
+/*переваги:  міні-заголовки*/
+.feature h3,
+.examples h2 {
+    color: var(--title-color);
+}
+/*  */
+/* exanples - звичайний текст p */
+.examples p {
+    color: var(--text-color);
+}
+/* --------підвал---------- */
+.footer {
+    background-color:#2F303A ;
+}
+footer .logo-studio {
+    color: #ffffff;
+}
+.contacts {
+    font-style: normal;
+    text-decoration: none;
+    /* color: #ffffff;  */
+}
